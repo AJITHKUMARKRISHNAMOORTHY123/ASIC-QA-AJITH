@@ -1,0 +1,48 @@
+$date
+	Thu Mar 20 12:41:17 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 1 ! A_less_B $end
+$var wire 1 " A_grt_B $end
+$var wire 1 # A_eq_B $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 %
+b100 $
+0#
+1"
+0!
+$end
+#1000
+1"
+b11 %
+b1001 $
+#2000
+1#
+0"
+b1101 %
+b1101 $
+#3000
+1"
+0#
+b10 %
+b101 $
+#4000
+1!
+0"
+b1101 %
+b1 $
+#5000
